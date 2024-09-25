@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+</head>
+<body>
+
+<header>
+    <h1>Search Documents</h1>
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Contribute.html">Contribute</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Search -->
+<main>
+    <section>
+        <h2>Find Documents by Tags</h2>
+        <form action="search-results.html" method="GET">
+            <label for="tags">Search by Tags:</label>
+            <input type="text" id="tags" name="tags" placeholder="Enter keywords or tags">
+
+            <h3>Optional Filters</h3>
+
+            <!-- Subject Filter -->
+            <label for="subject">Filter by Subject:</label>
+            <select id="subject" name="subject">
+                <option value="">Any Subject</option>
+                <option value="subj1">Subject 1</option>
+                <option value="subj2">Subject 2</option>
+                <option value="subj3">Subject 3</option>
+                <option value="subj4">Subject 4</option>
+            </select>
+
+            <!-- Grade Filter -->
+            <label for="grade">Filter by Grade:</label>
+            <select id="grade" name="grade">
+                <option value="">Any Grade</option>
+                <option value="1">Grade 1</option>
+                <option value="2">Grade 2</option>
+                <option value="3">Grade 3</option>
+
+            </select>
+
+            <!-- Document Rating Filter -->
+            <label for="rating">Filter by Rating:</label>
+            <select id="rating" name="rating">
+                <option value="">Any Rating</option>
+                <option value="5">5 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="2">2 Stars</option>
+                <option value="1">1 Star</option>
+            </select>
+
+            <!-- Search Button -->
+            <button type="submit">Search</button>
+        </form>
+    </section>
+</main>
+
+
+
+</body>
+</html>

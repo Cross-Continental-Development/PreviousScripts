@@ -1,0 +1,32 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "tags",
+    "description": "Title",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://102.222.124.17:3306"
+    }
+  ],
+  "paths": {
+    "/url": {
+      "get": {
+        "description": "New endpoint",
+        "responses": {
+          "200": {
+            "description": "New response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "": ""
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
